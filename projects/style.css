@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: silver;
+    position: relative;
+}
+#nav{
+    height: 70px;
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 20px;
+    margin-right: 160px;
+    margin-left: 30px;
+    
+}
+#nav_part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav_part1 h4{
+    margin-right: 80px;
+    font-size: 20px;
+  font-weight: 700;
+}
+#nav_part2 i{
+  margin-right: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color:rgb(145, 7, 71) ;
+}
+#content{
+    width: 100%;
+   height: 100%;
+
+    position: relative;
+    display: flex;
+}
+#left{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+#left h5{
+    font-size: 24px;
+    color: rgb(145, 7, 71);
+    margin-top:10px ;
+    margin-bottom:40px ;
+    margin-left: 20px;
+}
+#left h1{
+    font-size: 70px;
+    color:black;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+#left p{
+    font-size:20px ;
+    width:70%;
+    margin-bottom:40px ;
+    color: rgb(78, 4, 37);
+    margin-left: 20px;
+}
+#left button{
+    height:5%;
+    font-size:20px ;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(49, 2, 24);
+    margin-left:70px ;
+    
+    border-radius: 10px 12px ;
+}
+
+#right{
+    height: 100%;
+    width: 70%;
+    background-color: aliceblue;
+    position: relative;
+}
+.elem{
+    height: 400px;
+    width: 360px;
+    position: relative;
+    background-color: aqua;
+    margin-left: 70px;
+    margin-top:100px;
+   
+}
+.elem img{
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position:relative;
+    
+}
+.elem h4{
+    position: absolute;
+    margin-left: 170px;
+   margin-bottom: 180px;
+    background-color: rgb(136, 133, 133);
+  padding: 5px 5px;
+  border-radius: 10px 10px;
+}
+.elen{
+    height: 400px;
+    width: 360px;
+    background-color: aquamarine;
+    margin-left: 500px;
+    margin-block-start: -400px;
+}
+.elen h4{
+    position: absolute;
+    margin-left: 220px;
+   margin-top: 0px;
+    background-color: rgb(136, 133, 133);
+  padding: 5px 5px;
+  border-radius: 10px 10px;
+
+}
+#right h1{
+    position: relative;
+    color: rgb(49, 2, 24) ;
+    margin: 40px 300px;
+}
+.elen img{
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position:relative;
+    
+}
